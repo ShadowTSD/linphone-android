@@ -1,0 +1,321 @@
+# /Users/lifeng/Documents/workspace/linphone/submodules/externals/libvpx/configure --target=x86-android-gcc --sdk-path=/Users/lifeng/Documents/android-ndk-r10e --disable-vp9 --disable-examples --disable-unit-tests --disable-postproc --enable-error-concealment --enable-pic
+Configuring selected codecs
+  enabling vp8_encoder
+  enabling vp8_decoder
+Configuring for target 'x86-android-gcc'
+  enabling x86
+  enabling realtime_only
+check_cpp
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	#if !defined(__ILP32__) || !defined(__x86_64__)
+     2	#error "not x32"
+     3	#endif
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -E -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c:2:2: error: #error "not x32"
+ #error "not x32"
+  ^
+  enabling runtime_cpu_detect
+check_cflags -mmmx
+check_cc -Werror -mmmx
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -Werror -mmmx -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+  enabling mmx
+check_cflags -msse
+check_cc -Werror -msse
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -Werror -msse -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+  enabling sse
+check_cflags -msse2
+check_cc -Werror -msse2
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -Werror -msse2 -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+  enabling sse2
+check_cflags -msse3
+check_cc -Werror -msse3
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -Werror -msse3 -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+  enabling sse3
+check_cflags -mssse3
+check_cc -Werror -mssse3
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -Werror -mssse3 -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+  enabling ssse3
+check_cflags -msse4
+check_cc -Werror -msse4
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -Werror -msse4 -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+  enabling sse4_1
+check_cflags -mavx
+check_cc -Werror -mavx
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -Werror -mavx -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+  enabling avx
+check_cflags -mavx2
+check_cc -Werror -mavx2
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -Werror -mavx2 -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+  enabling avx2
+  using yasm
+check_cxxflags -DNDEBUG
+check_cxx -Werror -DNDEBUG
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -Werror -DNDEBUG -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+check_cflags -DNDEBUG
+check_cc -Werror -DNDEBUG
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -Werror -DNDEBUG -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_cxxflags -O3
+check_cxx -Werror -O3
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -Werror -O3 -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+check_cflags -O3
+check_cc -Werror -O3
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -Werror -O3 -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+  enabling use_x86inc
+check_cxxflags -fPIC
+check_cxx -Werror -fPIC
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -Werror -fPIC -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+check_cflags -fPIC
+check_cc -Werror -fPIC
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -Werror -fPIC -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_cc
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	unsigned int e = 'O'<<24 | '2'<<16 | 'B'<<8 | 'E';
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_cc
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	static inline function() {}
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_cxxflags -Wall
+check_cxx -Werror -Wall
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Werror -Wall -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+check_cflags -Wall
+check_cc -Werror -Wall
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Werror -Wall -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_cxxflags -Wdeclaration-after-statement
+check_cxx -Werror -Wdeclaration-after-statement
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Werror -Wdeclaration-after-statement -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+cc1plus: error: command line option '-Wdeclaration-after-statement' is valid for C/ObjC but not for C++ [-Werror]
+cc1plus: all warnings being treated as errors
+check_cflags -Wdeclaration-after-statement
+check_cc -Werror -Wdeclaration-after-statement
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Werror -Wdeclaration-after-statement -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_cxxflags -Wdisabled-optimization
+check_cxx -Werror -Wdisabled-optimization
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Werror -Wdisabled-optimization -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+check_cflags -Wdisabled-optimization
+check_cc -Werror -Wdisabled-optimization
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Werror -Wdisabled-optimization -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_cxxflags -Wpointer-arith
+check_cxx -Werror -Wpointer-arith
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdisabled-optimization -Werror -Wpointer-arith -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+check_cflags -Wpointer-arith
+check_cc -Werror -Wpointer-arith
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Werror -Wpointer-arith -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_cxxflags -Wtype-limits
+check_cxx -Werror -Wtype-limits
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdisabled-optimization -Wpointer-arith -Werror -Wtype-limits -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+check_cflags -Wtype-limits
+check_cc -Werror -Wtype-limits
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Werror -Wtype-limits -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_cxxflags -Wcast-qual
+check_cxx -Werror -Wcast-qual
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Werror -Wcast-qual -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+check_cflags -Wcast-qual
+check_cc -Werror -Wcast-qual
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Werror -Wcast-qual -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_cxxflags -Wvla
+check_cxx -Werror -Wvla
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Werror -Wvla -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+check_cflags -Wvla
+check_cc -Werror -Wvla
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Werror -Wvla -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_cxxflags -Wimplicit-function-declaration
+check_cxx -Werror -Wimplicit-function-declaration
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Werror -Wimplicit-function-declaration -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+cc1plus: error: command line option '-Wimplicit-function-declaration' is valid for C/ObjC but not for C++ [-Werror]
+cc1plus: all warnings being treated as errors
+check_cflags -Wimplicit-function-declaration
+check_cc -Werror -Wimplicit-function-declaration
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Werror -Wimplicit-function-declaration -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_cxxflags -Wuninitialized
+check_cxx -Werror -Wuninitialized
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Werror -Wuninitialized -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+check_cflags -Wuninitialized
+check_cc -Werror -Wuninitialized
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Werror -Wuninitialized -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_cxxflags -Wunused-variable
+check_cxx -Werror -Wunused-variable
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wuninitialized -Werror -Wunused-variable -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+check_cflags -Wunused-variable
+check_cc -Werror -Wunused-variable
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Werror -Wunused-variable -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_cxxflags -Wunused-but-set-variable
+check_cxx -Werror -Wunused-but-set-variable
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wuninitialized -Wunused-variable -Werror -Wunused-but-set-variable -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+check_cflags -Wunused-but-set-variable
+check_cc -Werror -Wunused-but-set-variable
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Werror -Wunused-but-set-variable -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_cxxflags -Wno-unused-function
+check_cxx -Werror -Wno-unused-function
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Werror -Wno-unused-function -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.cc
+check_cflags -Wno-unused-function
+check_cc -Werror -Wno-unused-function
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Werror -Wno-unused-function -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+  enabling webm_io
+  enabling libyuv
+check_header stdio.h
+check_cpp
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	#include "stdio.h"
+     2	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_ld
+check_cc
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	int main(void) {return 0;}
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -c -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.x /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o
+check_header stdint.h
+check_cpp
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	#include "stdint.h"
+     2	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_header pthread.h
+check_cpp
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	#include "pthread.h"
+     2	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_header sys/mman.h
+check_cpp
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	#include "sys/mman.h"
+     2	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_header unistd.h
+check_cpp
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	#include "unistd.h"
+     2	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+check_header vpx/vpx_integer.h -I/Users/lifeng/Documents/workspace/linphone/submodules/externals/libvpx
+check_cpp -I/Users/lifeng/Documents/workspace/linphone/submodules/externals/libvpx
+BEGIN /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+     1	#include "vpx/vpx_integer.h"
+     2	int x;
+END /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c
+/Users/lifeng/Documents/android-ndk-r10e/toolchains/x86-4.8/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/lifeng/Documents/android-ndk-r10e/platforms/android-21/arch-x86 -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -I/Users/lifeng/Documents/workspace/linphone/submodules/externals/libvpx -E -o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.o /var/folders/14/qfsgj0sj6r10wwzm1_79jh7c0000gn/T//vpx-conf-25770-30018.c

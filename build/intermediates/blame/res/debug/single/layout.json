@@ -1,0 +1,254 @@
+[
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/chatlist_cell.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/chatlist_cell.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/preference_list_content.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/preference_list_content.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/assistant_account_creation_activation.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/assistant_account_creation_activation.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/chat.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/chat.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/chat_bubble_outgoing.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/chat_bubble_outgoing.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/dialog.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/dialog.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/zrtp_dialog.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/zrtp_dialog.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/side_menu_account_cell.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/side_menu_account_cell.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/preference_led.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/preference_led.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/history_detail.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/history_detail.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/call_inactive_row.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/call_inactive_row.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/contact.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/contact.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/conf_call_control_row.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/conf_call_control_row.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/assistant_welcome.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/assistant_welcome.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/video.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/video.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/dialer.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/dialer.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/activity_my_main.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/activity_my_main.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/conference_paused_row.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/conference_paused_row.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/assistant.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/assistant.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/status.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/status.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/layout.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/layout.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/hello_world.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/hello_world.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/chat_bubble_incoming.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/chat_bubble_incoming.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/assistant_account_creation.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/assistant_account_creation.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/progress_dialog.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/progress_dialog.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/history_cell.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/history_cell.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/assistant_remote_provisioning_login.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/assistant_remote_provisioning_login.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/about.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/about.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/assistant_topbar.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/assistant_topbar.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/assistant_remote_provisioning.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/assistant_remote_provisioning.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/history.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/history.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/edit_list.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/edit_list.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/empty_fragment.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/empty_fragment.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/contact_control_row.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/contact_control_row.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/assistant_ec_calibration.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/assistant_ec_calibration.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/call_incoming.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/call_incoming.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/contacts_list.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/contacts_list.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/tutorials.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/tutorials.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/search_contact_cell.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/search_contact_cell.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/numpad.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/numpad.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/assistant_linphone_login.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/assistant_linphone_login.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/incall_stats.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/incall_stats.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/launch_screen.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/launch_screen.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/toast.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/toast.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/assistant_login.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/assistant_login.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/remote_provisioning.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/remote_provisioning.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/audio.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/audio.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/contact_edit_row.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/contact_edit_row.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/input_dialog.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/input_dialog.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/conference_header.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/conference_header.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/settings.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/settings.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/call_outgoing.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/call_outgoing.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/call01.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/call01.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/hidden.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/hidden.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/side_menu_main_account.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/side_menu_main_account.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/activity_my_call.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/activity_my_call.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/logindex.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/logindex.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/contact_edit.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/contact_edit.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/call.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/call.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/side_menu_item_cell.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/side_menu_item_cell.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/contact_cell.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/contact_cell.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout/chatlist.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout/chatlist.xml"
+    }
+]

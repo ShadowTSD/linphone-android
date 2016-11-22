@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout-sw533dp-land-v13/assistant_welcome.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout-sw533dp-land/assistant_welcome.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout-sw533dp-land-v13/dialer.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout-sw533dp-land/dialer.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout-sw533dp-land-v13/call.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout-sw533dp-land/call.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout-sw533dp-land-v13/assistant_login.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout-sw533dp-land/assistant_login.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout-sw533dp-land-v13/main.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout-sw533dp-land/main.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout-sw533dp-land-v13/video.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout-sw533dp-land/video.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout-sw533dp-land-v13/call_outgoing.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout-sw533dp-land/call_outgoing.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout-sw533dp-land-v13/chatlist_cell.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout-sw533dp-land/chatlist_cell.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout-sw533dp-land-v13/call_incoming.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout-sw533dp-land/call_incoming.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout-sw533dp-land-v13/assistant_linphone_login.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout-sw533dp-land/assistant_linphone_login.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout-sw533dp-land-v13/assistant_account_creation.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout-sw533dp-land/assistant_account_creation.xml"
+    }
+]

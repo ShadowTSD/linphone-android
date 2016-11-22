@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout-land/chatlist_cell.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout-land/chatlist_cell.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout-land/call_outgoing.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout-land/call_outgoing.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout-land/about.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout-land/about.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout-land/main.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout-land/main.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout-land/call.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout-land/call.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout-land/video.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout-land/video.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/layout-land/call_incoming.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/layout-land/call_incoming.xml"
+    }
+]

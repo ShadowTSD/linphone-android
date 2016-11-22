@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/raw-sw600dp-v13/linphonerc_factory",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/raw-sw600dp/linphonerc_factory"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/raw-sw600dp-v13/linphonerc_default",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/raw-sw600dp/linphonerc_default"
+    }
+]

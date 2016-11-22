@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/anim/bounce.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/anim/bounce.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/anim/slide_in_bottom_to_top.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/anim/slide_in_bottom_to_top.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/anim/slide_in_top_to_bottom.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/anim/slide_in_top_to_bottom.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/anim/slide_out_top_to_bottom.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/anim/slide_out_top_to_bottom.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/anim/slide_out_bottom_to_top.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/anim/slide_out_bottom_to_top.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/anim/slide_out_left_to_right.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/anim/slide_out_left_to_right.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/anim/slide_out_right_to_left.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/anim/slide_out_right_to_left.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/anim/slide_in_left_to_right.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/anim/slide_in_left_to_right.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/anim/slide_in_right_to_left.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/anim/slide_in_right_to_left.xml"
+    }
+]

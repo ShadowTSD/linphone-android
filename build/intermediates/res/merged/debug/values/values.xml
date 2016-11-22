@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="adaptive_rate_algorithm_entries">
+		<item>Simple</item>
+		<item>Stateful</item>
+	</string-array>
+    <string-array name="limit_bitrate_entries">
+		<item>10 kbits/s</item>
+		<item>15 kbits/s</item>
+		<item>20 kbits/s</item>
+		<item>36 kbits/s</item>
+		<item>64 kbits/s</item>
+		<item>128 kbits/s</item>
+	</string-array>
+    <string-array name="limit_bitrate_entry_values">
+		<item>10</item>
+		<item>15</item>
+		<item>20</item>
+		<item>36</item>
+		<item>64</item>
+		<item>128</item>
+	</string-array>
+    <string-array name="popup_enable_log">
+		<item>Enable logs</item>
+		<item>Cancel</item>
+	</string-array>
+    <string-array name="popup_send_log">
+		<item>Disable logs</item>
+		<item>Send logs</item>
+		<item>Cancel</item>
+	</string-array>
+    <string-array name="tunnel_mode_entries">
+        <item>disabled</item>
+        <item>3G only</item>
+        <item>always</item>
+        <item>auto</item>
+    </string-array>
+    <string-array name="tunnel_mode_entry_values">
+		<item>@string/tunnel_mode_entry_value_disabled</item>
+		<item>@string/tunnel_mode_entry_value_3G_only</item>
+		<item>@string/tunnel_mode_entry_value_always</item>
+		<item>@string/tunnel_mode_entry_value_auto</item>
+	</string-array>
+    <string-array name="video_preset_entries">
+		<item>default</item>
+		<item>high-fps</item>
+		<item>custom</item>
+	</string-array>
+    <attr name="direction">
+        <enum name="rightToLeft" value="0"/>
+        <enum name="bottomToTop" value="1"/>
+        <enum name="leftToRight" value="2"/>
+        <enum name="topToBottom" value="3"/>
+    </attr>
+    <attr name="orientation">
+        <!-- Defines an horizontal widget. -->
+        <enum name="horizontal" value="0"/>
+        <!-- Defines a vertical widget. -->
+        <enum name="vertical" value="1"/>
+    </attr>
+    <bool name="allow_cancel_remote_provisioning_login_activity">true</bool>
+    <bool name="allow_only_phone_numbers_in_wizard">false</bool>
+    <bool name="allow_ringing_while_early_media">true</bool>
+    <bool name="allow_transfers">false</bool>
+    <bool name="assistant_use_linphone_login_as_first_fragment">false</bool>
+    <bool name="auto_answer_calls">false</bool>
+    <bool name="automatically_start_intercepted_outgoing_gsm_call">true</bool>
+    <bool name="call_last_log_if_adress_is_empty">true</bool>
+    <bool name="disable_all_patented_codecs_for_markets">false</bool>
+    <bool name="disable_all_security_features_for_markets">false</bool>
+    <bool name="disable_animations">false</bool>
+    <bool name="disable_chat">false</bool>
+    <bool name="disable_chat_message_notification">false</bool>
+    <bool name="disable_chat_send_file">false</bool>
+    <bool name="disable_every_log">false</bool>
+    <bool name="disable_options_in_call">false</bool>
+    <bool name="display_account_wizard_at_first_start">true</bool>
+    <bool name="display_confirmation_popup_after_first_configuration">false</bool>
+    <bool name="display_sms_remote_provisioning_activity">false</bool>
+    <bool name="enable_call_notification">true</bool>
+    <bool name="enable_linphone_friends">true</bool>
+    <bool name="enable_log_collect">false</bool>
+    <bool name="enable_push_id">true</bool>
+    <bool name="forbid_app_usage_until_remote_provisioning_completed">false</bool>
+    <bool name="forbid_self_call">true</bool>
+    <bool name="hash_images_as_name_before_upload">true</bool>
+    <bool name="hide_accounts">false</bool>
+    <bool name="hide_camera_settings">false</bool>
+    <bool name="hide_generic_accounts_wizard">false</bool>
+    <bool name="hide_in_call_stats">false</bool>
+    <bool name="hide_linphone_accounts_wizard">false</bool>
+    <bool name="hide_phone_numbers_in_editor">false</bool>
+    <bool name="hide_remote_provisioning_in_wizard">false</bool>
+    <bool name="hide_sip_addresses_in_editor">false</bool>
+    <bool name="hide_wizard">false</bool>
+    <bool name="isTablet">false</bool>
+    <bool name="kill_service_with_task_manager">true</bool>
+    <bool name="orientation_portrait_only">false</bool>
+    <bool name="pre_fill_email_in_wizard">true</bool>
+    <bool name="replace_assistant_with_old_interface">false</bool>
+    <bool name="setup_account_validation_mandatory">false</bool>
+    <bool name="setup_cancel_move_to_back">false</bool>
+    <bool name="show_statusbar_only_on_dialer">false</bool>
+    <bool name="show_tutorials_instead_of_app">false</bool>
+    <bool name="use_linphone_friend">true</bool>
+    <bool name="use_linphone_server_ports">false</bool>
+    <bool name="use_linphone_tag">true</bool>
+    <bool name="use_linphonecore_ringing">false</bool>
+    <color name="colorA">#ff5e00</color>
+    <color name="colorB">#000000</color>
+    <color name="colorC">#444444</color>
+    <color name="colorD">#808080</color>
+    <color name="colorE">#c4c4c4</color>
+    <color name="colorF">#e1e1e1</color>
+    <color name="colorG">#f3f3f3</color>
+    <color name="colorH">#ffffff</color>
+    <color name="colorI">#ff0000</color>
+    <color name="colorJ">#ffa645</color>
+    <color name="colorK">#3eb5c0</color>
+    <color name="colorL">#96c11f</color>
+    <color name="transparent">#00000000</color>
+    <declare-styleable name="Numpad"><attr name="play_dtmf"><enum name="dont" value="0"/><enum name="play" value="1"/></attr></declare-styleable>
+    <declare-styleable name="SlidingDrawer"><attr format="reference" name="handle"/><attr format="reference" name="content"/><attr name="direction"/></declare-styleable>
+    <declare-styleable name="SlidingTab"><attr name="orientation"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="about">About</string>
+    <string name="about_bugreport_email">linphone-android@belledonne-communications.com</string>
+    <string name="about_liblinphone_version">Linphone Core %s</string>
+    <string name="about_link">www.linphone.org</string>
+    <string name="about_text">GNU General Public License V2\n © 2010-2016 Belledonne Communications</string>
+    <string name="about_version">Linphone Android %s</string>
+    <string name="accept">Accept</string>
+    <string name="add_video_dialog">Your correspondent would like to turn on video</string>
+    <string name="address_bar_hint">Enter a number or an address</string>
+    <string name="addressbook_label">Linphone</string>
+    <string name="app_description">the <i>libre</i> SIP client</string>
+    <string name="app_description1">上海阅维信息科技有限公司</string>
+    <string name="app_name">Linphone</string>
+    <string name="app_name1">阅维科技</string>
+    <string name="assistant">Assistant</string>
+    <string name="assistant_account_not_validated">Your account has not been validated yet.</string>
+    <string name="assistant_account_validated">Your account has been validated.</string>
+    <string name="assistant_create_account">Create account</string>
+    <string name="assistant_create_account_part_1">1/2</string>
+    <string name="assistant_create_account_part_2">2/2</string>
+    <string name="assistant_display_name_optional">Display name (optional)</string>
+    <string name="assistant_ec_calibration">Echo canceler calibration in progress</string>
+    <string name="assistant_error_bad_credentials">Incorrect username or password</string>
+    <string name="assistant_fetch_apply">Fetch and apply</string>
+    <string name="assistant_finish">Finish configuration</string>
+    <string name="assistant_generic_account">Configure SIP account</string>
+    <string name="assistant_linphone_account">Configure Linphone account</string>
+    <string name="assistant_linphone_login_desc">Enter your username and password of Linphone account</string>
+    <string name="assistant_login">Login</string>
+    <string name="assistant_login_desc">Enter your username and password with your SIP domain</string>
+    <string name="assistant_login_generic">Use SIP account</string>
+    <string name="assistant_login_linphone">Use Linphone account</string>
+    <string name="assistant_remote_provisioning">Fetch remote configuration</string>
+    <string name="assistant_remote_provisioning_desc">Please provide your provisioning URL</string>
+    <string name="assistant_remote_provisioning_login">Enter your login</string>
+    <string name="assistant_remote_provisioning_title">Fetch remote configuration</string>
+    <string name="assistant_validate_account">Your account is created. Please check your mails to validate your account. Once it is done, come back here and click on the button.</string>
+    <string name="assistant_welcome_desc">This assistant will help you to use a SIP account for your calls.</string>
+    <string name="call">Call</string>
+    <string name="call_paused_by_remote">Your correspondent paused the call</string>
+    <string name="call_stats_audio">Audio</string>
+    <string name="call_stats_codec">Codec:</string>
+    <string name="call_stats_download">Download bandwidth:</string>
+    <string name="call_stats_ice">ICE connectivity:</string>
+    <string name="call_stats_upload">Upload bandwidth:</string>
+    <string name="call_stats_video">Video</string>
+    <string name="call_stats_video_resolution">Video size:</string>
+    <string name="cancel">Cancel</string>
+    <string name="conference">Conference</string>
+    <string name="confirm_password">Password confirmation</string>
+    <string name="connect">Connection</string>
+    <string name="contact_first_name">First name</string>
+    <string name="contact_last_name">Last name</string>
+    <string name="content_description_accept">Accept</string>
+    <string name="content_description_add">Add button</string>
+    <string name="content_description_add_call">Add call</string>
+    <string name="content_description_add_contact">Add to contacts</string>
+    <string name="content_description_all_calls">All calls</string>
+    <string name="content_description_all_contacts">All contacts</string>
+    <string name="content_description_back">Back</string>
+    <string name="content_description_backspace">Backspace</string>
+    <string name="content_description_call">Call</string>
+    <string name="content_description_call_direction">Call direction</string>
+    <string name="content_description_call_quality">Call quality</string>
+    <string name="content_description_cancel_button">Cancel button</string>
+    <string name="content_description_chat">Chat</string>
+    <string name="content_description_chat_button">Chat button</string>
+    <string name="content_description_conference">Conference</string>
+    <string name="content_description_contact_picture">Contact picture</string>
+    <string name="content_description_contacts">Contacts button</string>
+    <string name="content_description_decline">Decline</string>
+    <string name="content_description_delete">Delete button</string>
+    <string name="content_description_detail">Details</string>
+    <string name="content_description_dial_back">Dial back</string>
+    <string name="content_description_dialer">Dialer</string>
+    <string name="content_description_edit">Edit button</string>
+    <string name="content_description_encryption">Encryption</string>
+    <string name="content_description_hang_up">Hang up</string>
+    <string name="content_description_history">History button</string>
+    <string name="content_description_linphone_contacts">Linphone contacts</string>
+    <string name="content_description_message_status">Message status</string>
+    <string name="content_description_missed_calls">Missed calls</string>
+    <string name="content_description_new_contact">New contact</string>
+    <string name="content_description_new_discussion">New discussion</string>
+    <string name="content_description_numpad">Numpad</string>
+    <string name="content_description_pause">Pause</string>
+    <string name="content_description_search">Search</string>
+    <string name="content_description_send_message">Send message</string>
+    <string name="content_description_switch_camera">Switch camera</string>
+    <string name="content_description_switch_video">Switch video</string>
+    <string name="content_description_toggle_micro">Toggle micro</string>
+    <string name="content_description_toggle_speaker">Toggle speaker</string>
+    <string name="content_description_valid">Valid button</string>
+    <string name="continue_text">Continue</string>
+    <string name="copy_text">Copy text</string>
+    <string name="couldnt_accept_call">An error occurred while accepting the call</string>
+    <string name="debug_popup_title">Debug</string>
+    <string name="decline">Decline</string>
+    <string name="default_account_flag">Default account</string>
+    <string name="default_domain">sip.linphone.org</string>
+    <string name="default_stun">stun.linphone.org</string>
+    <string name="delete">Delete</string>
+    <string name="delete_contact">Do you want to delete selected contact?</string>
+    <string name="delete_contacts">Do you want to delete selected contacts?</string>
+    <string name="delete_conversation">Do you want to delete selected conversation?</string>
+    <string name="delete_history_log">Do you want to delete selected call log?</string>
+    <string name="delete_message">Do you want to delete selected message?</string>
+    <string name="delete_text">Are you sure you want to delete your selection?</string>
+    <string name="deny">Deny</string>
+    <string name="display_name">Display name</string>
+    <string name="domain">Domain</string>
+    <string name="download_image_failed">Download failed. Please check your network connection or try again later.</string>
+    <string name="ec_calibrated">Calibrated in %s ms</string>
+    <string name="ec_calibrating">Calibrating…</string>
+    <string name="email">Email</string>
+    <string name="enter_conference">正在进入对讲模式...</string>
+    <string name="error">Error</string>
+    <string name="error_bad_credentials">Bad credentials</string>
+    <string name="error_call_declined">Call declined</string>
+    <string name="error_incompatible_media">Incompatible media parameters</string>
+    <string name="error_io_error">Network error</string>
+    <string name="error_low_bandwidth">Your correspondent has low bandwidth, video cannot be started</string>
+    <string name="error_network_unreachable">Network is unreachable</string>
+    <string name="error_unauthorized">Unauthorized</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="error_user_not_found">User not found</string>
+    <string name="exit_conference">退出对讲</string>
+    <string name="failed">failed</string>
+    <string name="first_launch_no_login_password">Please enter your login and password</string>
+    <string name="first_launch_suceeded_once_key">first_launch_suceeded_once_key</string>
+    <string name="history_date_format">EEE, d MMM</string>
+    <string name="history_detail_date_format">yyyy/MM/dd - HH:mm - </string>
+    <string name="image_not_saved">Error, image not saved</string>
+    <string name="image_picker_title">Select source</string>
+    <string name="image_saved">Image saved</string>
+    <string name="incall_notif_active">Audio call ongoing</string>
+    <string name="incall_notif_paused">Paused call ongoing</string>
+    <string name="incall_notif_video">Video capturing call ongoing</string>
+    <string name="incoming">Incoming</string>
+    <string name="incoming_call">incoming call</string>
+    <string name="media_encryption_dtls">DTLS</string>
+    <string name="media_encryption_srtp">SRTP</string>
+    <string name="media_encryption_zrtp">ZRTP</string>
+    <string name="menu_about">About</string>
+    <string name="menu_about_key">menu_about_key</string>
+    <string name="menu_assistant">Assistant</string>
+    <string name="menu_reset_log">Reset log</string>
+    <string name="menu_send_log">Send log</string>
+    <string name="menu_settings">Settings</string>
+    <string name="messages_date_format">dd/MM, HH:mm</string>
+    <string name="messages_list_date_format">dd/MM</string>
+    <string name="missed">Missed</string>
+    <string name="no_account">No account configured</string>
+    <string name="no_call_history">No call in your history</string>
+    <string name="no_chat_history">No conversations</string>
+    <string name="no_contact">No contact in your address book.</string>
+    <string name="no_current_call">No active call</string>
+    <string name="no_echo">No echo</string>
+    <string name="no_missed_call_history">No missed call in your history</string>
+    <string name="no_sip_contact">No SIP contact in your address book.</string>
+    <string name="notification_register_failure">%s failed to register</string>
+    <string name="notification_registered">%s registered</string>
+    <string name="notification_started">started</string>
+    <string name="notification_title">Linphone</string>
+    <string name="outgoing">Outgoing</string>
+    <string name="outgoing_call">outgoing call</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone number</string>
+    <string name="picture_name_format">linphone-mms-%s.jpg</string>
+    <string name="pref_activated_key">pref_activated_key</string>
+    <string name="pref_adaptive_rate_control">Adaptive rate control</string>
+    <string name="pref_adaptive_rate_control_key">pref_adaptive_rate_control_key</string>
+    <string name="pref_add_account">Add account</string>
+    <string name="pref_add_account_key">pref_add_account_key</string>
+    <string name="pref_advanced_key">pref_advanced_key</string>
+    <string name="pref_advanced_title">Advanced</string>
+    <string name="pref_animation_enable_key">pref_animation_enable_key</string>
+    <string name="pref_animation_enable_title">Enable Animations</string>
+    <string name="pref_audio_hacks_title">Audio hacks</string>
+    <string name="pref_audio_hacks_use_galaxys_hack_key">pref_audio_hacks_use_galaxys_hack_key</string>
+    <string name="pref_audio_hacks_use_galaxys_hack_title">Use Galaxy S audio hack</string>
+    <string name="pref_audio_hacks_use_routing_api_key">pref_audio_hacks_use_routing_api_key</string>
+    <string name="pref_audio_hacks_use_routing_api_title">Use routing API hack</string>
+    <string name="pref_audio_port_description">Audio port or port range (minport-maxport)</string>
+    <string name="pref_audio_port_key">pref_audio_port_key</string>
+    <string name="pref_audio_port_title">Audio port or port range</string>
+    <string name="pref_audio_ringtone">pref_audio_ringtone</string>
+    <string name="pref_audio_soft_volume_key">pref_audio_soft_volume_key</string>
+    <string name="pref_audio_title">Audio</string>
+    <string name="pref_audio_use_specific_mode_key">pref_audio_use_specific_mode_key</string>
+    <string name="pref_audio_use_specific_mode_summary">0=MODE_NORMAL (default), 2=MODE_IN_CALL</string>
+    <string name="pref_audio_use_specific_mode_title">Use specific mode hack</string>
+    <string name="pref_auth_userid">Auth userid</string>
+    <string name="pref_auth_userid_key">pref_auth_userid_key</string>
+    <string name="pref_auto_accept_friends_key">pref_auto_accept_friends_key</string>
+    <string name="pref_autostart">Start at boot time</string>
+    <string name="pref_autostart_key">pref_autostart_key</string>
+    <string name="pref_avpf">AVPF</string>
+    <string name="pref_avpf_key">pref_avpf_key</string>
+    <string name="pref_avpf_rr_interval"> AVPF regular RTCP interval in seconds (between 1 and 5)</string>
+    <string name="pref_avpf_rr_interval_key">pref_avpf_rr_interval_key</string>
+    <string name="pref_background_mode">Background mode</string>
+    <string name="pref_background_mode_key">pref_background_mode_key</string>
+    <string name="pref_bandwidth_limit">Bandwidth limit in kbits/s</string>
+    <string name="pref_bandwidth_limit_key">pref_bandwidth_limit_key</string>
+    <string name="pref_call_title">Call</string>
+    <string name="pref_codec_amr">amr</string>
+    <string name="pref_codec_amr_key">pref_codec_amr_key</string>
+    <string name="pref_codec_amrwb">amr-wb</string>
+    <string name="pref_codec_amrwb_key">pref_codec_amrwb_key</string>
+    <string name="pref_codec_bitrate_limit">Codec bitrate limit</string>
+    <string name="pref_codec_bitrate_limit_key">pref_codec_bitrate_limit_key</string>
+    <string name="pref_codec_g722">g722</string>
+    <string name="pref_codec_g722_key">pref_codec_g722_key</string>
+    <string name="pref_codec_g729">g729</string>
+    <string name="pref_codec_g729_key">pref_codec_g729_key</string>
+    <string name="pref_codec_gsm">gsm</string>
+    <string name="pref_codec_gsm_key">pref_codec_gsm_key</string>
+    <string name="pref_codec_ilbc">ilbc</string>
+    <string name="pref_codec_ilbc_key">pref_codec_ilbc_key</string>
+    <string name="pref_codec_opus">opus 48Khz</string>
+    <string name="pref_codec_opus_key">pref_codec_opus_key</string>
+    <string name="pref_codec_pcma">pcma</string>
+    <string name="pref_codec_pcma_key">pref_codec_pcma_key</string>
+    <string name="pref_codec_pcmu">pcmu</string>
+    <string name="pref_codec_pcmu_key">pref_codec_pcmu_key</string>
+    <string name="pref_codec_silk12">silk 12 Khz</string>
+    <string name="pref_codec_silk12_key">pref_codec_silk12_key</string>
+    <string name="pref_codec_silk16">silk 16 Khz</string>
+    <string name="pref_codec_silk16_key">pref_codec_silk16_key</string>
+    <string name="pref_codec_silk24">silk 24 Khz</string>
+    <string name="pref_codec_silk24_key">pref_codec_silk24_key</string>
+    <string name="pref_codec_silk8">silk 8 Khz</string>
+    <string name="pref_codec_silk8_key">pref_codec_silk8_key</string>
+    <string name="pref_codec_speex16">speex 16 Khz</string>
+    <string name="pref_codec_speex16_key">pref_codec_speex16_key</string>
+    <string name="pref_codec_speex32_key">pref_codec_speex32_key</string>
+    <string name="pref_codec_speex8">speex 8 Khz</string>
+    <string name="pref_codec_speex8_key">pref_codec_speex8_key</string>
+    <string name="pref_codecs">Codecs</string>
+    <string name="pref_codecs_key">pref_codecs_key</string>
+    <string name="pref_debug">Debug</string>
+    <string name="pref_debug_key">pref_debug_key</string>
+    <string name="pref_default_account">Use as default</string>
+    <string name="pref_default_account_key">pref_default_account</string>
+    <string name="pref_delete_account">Delete this account</string>
+    <string name="pref_disable_account">Disable</string>
+    <string name="pref_disable_account_key">pref_disable_account_key</string>
+    <string name="pref_display_name">Display name</string>
+    <string name="pref_display_name_key">pref_display_name_key</string>
+    <string name="pref_display_name_title">Display name</string>
+    <string name="pref_domain">Domain*</string>
+    <string name="pref_domain_key">pref_domain_key</string>
+    <string name="pref_echo_cancellation">Echo cancellation</string>
+    <string name="pref_echo_cancellation_key">pref_echo_cancellation_key</string>
+    <string name="pref_echo_cancellation_summary">Removes the echo heard by other end</string>
+    <string name="pref_echo_canceller_calibration">Echo canceler calibration</string>
+    <string name="pref_echo_canceller_calibration_key">pref_echo_canceller_calibration_key</string>
+    <string name="pref_enable_outbound_proxy">Outbound proxy</string>
+    <string name="pref_enable_outbound_proxy_key">Outbound proxy</string>
+    <string name="pref_escape_plus">Replace + by 00</string>
+    <string name="pref_escape_plus_key">pref_escape_plus_key</string>
+    <string name="pref_expire_key">pref_expire_key</string>
+    <string name="pref_expire_title">Expire</string>
+    <string name="pref_extra_accounts">pref_nb_accounts_extra</string>
+    <string name="pref_first_time_linphone_chat_storage">pref_first_time_linphone_chat_storage</string>
+    <string name="pref_help_auth_userid">Enter authentication userid (optional)</string>
+    <string name="pref_help_display_name">Enter display name (optional)</string>
+    <string name="pref_help_domain">sip.example.org if your account is john@sip.example.org</string>
+    <string name="pref_help_outbound_proxy">Route all calls through SIP proxy</string>
+    <string name="pref_help_password">You have to re-enter your password if you edit your username and/or the domain</string>
+    <string name="pref_help_proxy">SIP proxy hostname or ip address (optional)</string>
+    <string name="pref_help_username">Example: john if your account is john@sip.example.org</string>
+    <string name="pref_ice_enable">Enable ICE</string>
+    <string name="pref_ice_enable_key">pref_ice_enable_key</string>
+    <string name="pref_image_sharing_server_key">pref_image_sharing_server_key</string>
+    <string name="pref_image_sharing_server_title">Sharing server</string>
+    <string name="pref_incoming_call_timeout_key">pref_incoming_expire_key</string>
+    <string name="pref_incoming_call_timeout_title">Incoming call hangup (in seconds)</string>
+    <string name="pref_ipv6_key">pref_ipv6_key</string>
+    <string name="pref_ipv6_title">Allow IPv6</string>
+    <string name="pref_manage_key">pref_manage_key</string>
+    <string name="pref_manage_title">Manage</string>
+    <string name="pref_media_encryption">Media encryption</string>
+    <string name="pref_media_encryption_key">pref_media_encryption_key</string>
+    <string name="pref_media_encryption_key_dtls">dtls</string>
+    <string name="pref_media_encryption_key_none">none</string>
+    <string name="pref_media_encryption_key_srtp">srtp</string>
+    <string name="pref_media_encryption_key_zrtp">zrtp</string>
+    <string name="pref_network_title">Network</string>
+    <string name="pref_none">None</string>
+    <string name="pref_passwd">Password*</string>
+    <string name="pref_passwd_key">pref_passwd_key</string>
+    <string name="pref_preferences_title">Preferences</string>
+    <string name="pref_preferred_fps">Preferred FPS</string>
+    <string name="pref_preferred_video_fps_key">pref_preferred_video_fps_key</string>
+    <string name="pref_preferred_video_size">Preferred video size</string>
+    <string name="pref_preferred_video_size_key">pref_preferred_video_size_key</string>
+    <string name="pref_prefix">Prefix</string>
+    <string name="pref_prefix_key">pref_prefix_key</string>
+    <string name="pref_primary_account_title">Primary account</string>
+    <string name="pref_proxy">Proxy</string>
+    <string name="pref_proxy_key">pref_proxy_key</string>
+    <string name="pref_push_notification">Enable push notifications</string>
+    <string name="pref_push_notification_key">pref_push_notification_key</string>
+    <string name="pref_remote_provisioning_key">pref_remote_provisioning_key</string>
+    <string name="pref_remote_provisioning_title">Remote provisioning</string>
+    <string name="pref_rfc2833_dtmf">Send RFC2833 DTMFs</string>
+    <string name="pref_rfc2833_dtmf_key">pref_rfc2833_dtmf_key</string>
+    <string name="pref_sip_port_key">pref_sip_port_key</string>
+    <string name="pref_sip_port_title">SIP port to use</string>
+    <string name="pref_sipaccount">SIP Account</string>
+    <string name="pref_sipaccount_key">pref_sipaccount_key</string>
+    <string name="pref_sipaccounts">SIP Accounts</string>
+    <string name="pref_sipaccounts_key">pref_sipaccounts_key</string>
+    <string name="pref_sipinfo_dtmf">Send SIP INFO DTMFs</string>
+    <string name="pref_sipinfo_dtmf_key">pref_sipinfo_dtmf_key</string>
+    <string name="pref_stun_server">Stun server</string>
+    <string name="pref_stun_server_key">pref_stun_server_key</string>
+    <string name="pref_transport">Transport</string>
+    <string name="pref_transport_key">pref_transport_key</string>
+    <string name="pref_transport_tcp">TCP</string>
+    <string name="pref_transport_tcp_key">pref_transport_tcp_key</string>
+    <string name="pref_transport_tls">TLS</string>
+    <string name="pref_transport_tls_key">pref_transport_tls_key</string>
+    <string name="pref_transport_udp">UDP</string>
+    <string name="pref_transport_udp_key">pref_transport_udp_key</string>
+    <string name="pref_transport_use_random_ports">Use random ports</string>
+    <string name="pref_transport_use_random_ports_key">pref_transport_use_random_ports_key</string>
+    <string name="pref_tunnel">Tunnel</string>
+    <string name="pref_tunnel_host">Hostname</string>
+    <string name="pref_tunnel_host_key">pref_tunnel_host_key</string>
+    <string name="pref_tunnel_key">pref_tunnel_key</string>
+    <string name="pref_tunnel_mode">Mode</string>
+    <string name="pref_tunnel_mode_key">pref_tunnel_mode_key</string>
+    <string name="pref_tunnel_port">Port</string>
+    <string name="pref_tunnel_port_key">pref_tunnel_port_key</string>
+    <string name="pref_upnp_enable">Enable UPNP</string>
+    <string name="pref_upnp_enable_key">pref_upnp_enable_key</string>
+    <string name="pref_user_name_key">pref_user_name_key</string>
+    <string name="pref_user_name_title">Username</string>
+    <string name="pref_username">Username*</string>
+    <string name="pref_username_key">pref_username_key</string>
+    <string name="pref_video_automatically_accept_video">Always accept video requests</string>
+    <string name="pref_video_automatically_accept_video_key">pref_video_automatically_accept_video_key</string>
+    <string name="pref_video_automatically_accept_video_title">Accept incoming video requests</string>
+    <string name="pref_video_codec_h263_key">pref_video_codec_h263_key</string>
+    <string name="pref_video_codec_h263_title">H263</string>
+    <string name="pref_video_codec_h264_key">pref_video_codec_h264_key</string>
+    <string name="pref_video_codec_h264_title">H264</string>
+    <string name="pref_video_codec_mpeg4_key">pref_video_codec_mpeg4_key</string>
+    <string name="pref_video_codec_mpeg4_title">MP4V-ES</string>
+    <string name="pref_video_codec_vp8_key">pref_video_codec_vp8_key</string>
+    <string name="pref_video_codec_vp8_title">VP8</string>
+    <string name="pref_video_codecs_key">pref_video_codecs_key</string>
+    <string name="pref_video_codecs_title">Codecs</string>
+    <string name="pref_video_enable_key">pref_video_enable_key</string>
+    <string name="pref_video_enable_title">Enable Video</string>
+    <string name="pref_video_initiate_call_with_video">Always send video requests</string>
+    <string name="pref_video_initiate_call_with_video_key">pref_video_initiate_call_with_video_key</string>
+    <string name="pref_video_initiate_call_with_video_title">Initiate video calls</string>
+    <string name="pref_video_key">pref_video_key</string>
+    <string name="pref_video_port_description">Video port or port range (minport-maxport)</string>
+    <string name="pref_video_port_key">pref_video_port_key</string>
+    <string name="pref_video_port_title">Video port or port range</string>
+    <string name="pref_video_preset">Video preset</string>
+    <string name="pref_video_preset_key">pref_video_preset_key</string>
+    <string name="pref_video_title">Video</string>
+    <string name="pref_video_use_front_camera_key">pref_video_use_front_camera_key</string>
+    <string name="pref_video_use_front_camera_title">Use front camera</string>
+    <string name="pref_voice_mail">Voice mail URI</string>
+    <string name="pref_voice_mail_key">pref_voice_mail_key</string>
+    <string name="pref_wifi_only">Use WiFi only</string>
+    <string name="pref_wifi_only_key">pref_wifi_only_key</string>
+    <string name="pref_wizard_key">pref_wizard_key</string>
+    <string name="processing_image">Processing image, can take up to a few seconds depending on the size of the file</string>
+    <string name="push_reg_id_key">push_reg_id_key</string>
+    <string name="push_sender_id">622464153529</string>
+    <string name="push_sender_id_key">push_sender_id_key</string>
+    <string name="quit">Quit</string>
+    <string name="refresh">刷新</string>
+    <string name="remote_composing">Remote is writing...</string>
+    <string name="remote_provisioning_again_message">Do you want to change the provisioning URI?</string>
+    <string name="remote_provisioning_again_title">Remote provisioning</string>
+    <string name="remote_provisioning_failure">Failed to download or apply remote provisioning profile...</string>
+    <string name="remote_provisioning_url">URL</string>
+    <string name="retry">Retry</string>
+    <string name="search">Search</string>
+    <string name="search_contact">输入好友名称搜索</string>
+    <string name="service_name">Linphone Service</string>
+    <string name="settings">Settings</string>
+    <string name="setup_confirm_username">Your username will be %s.\r\n\r\nIt may differ from your input to match requirements.\r\nDo you accept?</string>
+    <string name="setup_key">setup_key</string>
+    <string name="share_picture_size_large">Large</string>
+    <string name="share_picture_size_medium">Medium</string>
+    <string name="share_picture_size_real">Real size</string>
+    <string name="share_picture_size_small">Small</string>
+    <string name="sip_address">SIP address</string>
+    <string name="skipable_error_service_not_ready">Warning: service is not ready</string>
+    <string name="status_connected">Registered</string>
+    <string name="status_error">Registration failed</string>
+    <string name="status_in_progress">Registration in progress</string>
+    <string name="status_not_connected">Not registered</string>
+    <string name="sync_account_name">linphone contacts</string>
+    <string name="sync_account_type">org.linphone</string>
+    <string name="sync_mimetype">vnd.android.cursor.item/org.linphone.profile</string>
+    <string name="temp_photo_name">linphone-android-photo-temp.jpg</string>
+    <string name="temp_photo_name_with_date">linphone-android-photo-%s.jpg</string>
+    <string name="text_copied_to_clipboard">Text copied to clipboard</string>
+    <string name="today">Today</string>
+    <string name="today_date_format">HH:mm</string>
+    <string name="transport">Transport</string>
+    <string name="tunnel_host"/>
+    <string name="tunnel_mode_entry_value_3G_only">3G_only</string>
+    <string name="tunnel_mode_entry_value_always">always</string>
+    <string name="tunnel_mode_entry_value_auto">auto</string>
+    <string name="tunnel_mode_entry_value_disabled">disabled</string>
+    <string name="unknown_incoming_call_name">Unknown</string>
+    <string name="unread_messages">%i unread messages</string>
+    <string name="username">Username</string>
+    <string name="voicemail_unread"> unread messages</string>
+    <string name="wait">Please wait...</string>
+    <string name="wait_dialog_text">Starting up</string>
+    <string name="warning_wrong_destination_address">Cannot build destination address from %s</string>
+    <string name="welcome">Welcome</string>
+    <string name="wizard_email_incorrect">Your email is invalid.</string>
+    <string name="wizard_failed">An error occurred, try again later.</string>
+    <string name="wizard_password_incorrect">Your password is invalid (6 characters min).</string>
+    <string name="wizard_passwords_unmatched">Passwords do not match.</string>
+    <string name="wizard_server_unavailable">Server unreachable, verify your network connection.</string>
+    <string name="wizard_url">https://www.linphone.org/wizard.php</string>
+    <string name="wizard_username_incorrect">Your username is invalid.</string>
+    <string name="wizard_username_unavailable">This username is already in use.</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="zrtp_dialog">ZRTP token is %s\nYou should only accept if you have the same token as your correspondent</string>
+    <style name="Default" parent="android:Theme.Holo.Light"/>
+    <style name="DialerDigit" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">50dp</item>
+		<item name="android:layout_height">50dp</item>
+		<item name="android:textColor">@android:color/transparent</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:layout_margin">25dp</item>
+	</style>
+    <style name="FullScreen" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen"/>
+    <style name="NoTitle" parent="android:Theme.Holo.Light.NoActionBar"/>
+    <style name="TextAppearance.SlidingTabActive" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+    <style name="TextAppearance.SlidingTabNormal" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">?android:attr/textColorTertiary</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">5.0</item>
+    </style>
+    <style name="font1" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textColor">@color/colorA</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">24sp</item>
+	</style>
+    <style name="font10" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textColor">@color/colorD</item>
+		<item name="android:textSize">18sp</item>
+	</style>
+    <style name="font11" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textColor">@color/colorD</item>
+		<item name="android:textSize">15sp</item>
+	</style>
+    <style name="font12" parent="@android:style/TextAppearance.Small">
+		<item name="android:textColor">@color/colorE</item>
+		<item name="android:textSize">16sp</item>
+	</style>
+    <style name="font13" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textColor">@color/colorE</item>
+		<item name="android:textSize">13sp</item>
+	</style>
+    <style name="font14" parent="@android:style/TextAppearance.Small">
+		<item name="android:textColor">@color/colorH</item>
+		<item name="android:textSize">21sp</item>
+	</style>
+    <style name="font15" parent="@android:style/TextAppearance.Small">
+		<item name="android:textColor">@color/colorH</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:textSize">16sp</item>
+	</style>
+    <style name="font16" parent="@android:style/TextAppearance.Small">
+		<item name="android:textColor">@color/colorH</item>
+		<item name="android:textSize">15sp</item>
+	</style>
+    <style name="font17" parent="@android:style/TextAppearance.Small">
+		<item name="android:textColor">@color/colorH</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">13sp</item>
+	</style>
+    <style name="font18" parent="@android:style/TextAppearance.Small">
+		<item name="android:textColor">@color/colorH</item>
+		<item name="android:textSize">10sp</item>
+	</style>
+    <style name="font19" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textColor">@color/colorD</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:textSize">13sp</item>
+	</style>
+    <style name="font2" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textColor">@color/colorA</item>
+		<item name="android:textSize">16sp</item>
+	</style>
+    <style name="font20" parent="@android:style/TextAppearance.Small">
+		<item name="android:textColor">@color/colorI</item>
+		<item name="android:textSize">14sp</item>
+	</style>
+    <style name="font21" parent="@android:style/TextAppearance.Large">
+		<item name="android:textColor">@color/colorH</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:textSize">50sp</item>
+	</style>
+    <style name="font22" parent="@android:style/TextAppearance.Large">
+		<item name="android:textColor">@color/colorH</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">25sp</item>
+	</style>
+    <style name="font23" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textColor">@color/colorD</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textStyle">italic</item>
+	</style>
+    <style name="font3" parent="@android:style/TextAppearance.Small">
+		<item name="android:textColor">@color/colorA</item>
+		<item name="android:textSize">13sp</item>
+	</style>
+    <style name="font4" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textColor">@color/colorB</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">21sp</item>
+	</style>
+    <style name="font5" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textColor">@color/colorC</item>
+		<item name="android:textSize">30sp</item>
+	</style>
+    <style name="font6" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textColor">@color/colorC</item>
+		<item name="android:textSize">20sp</item>
+	</style>
+    <style name="font7" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textColor">@color/colorC</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">18sp</item>
+	</style>
+    <style name="font8" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textColor">@color/colorC</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:textSize">16sp</item>
+	</style>
+    <style name="font9" parent="@android:style/TextAppearance.Small">
+		<item name="android:textColor">@color/colorC</item>
+		<item name="android:textSize">13sp</item>
+	</style>
+</resources>

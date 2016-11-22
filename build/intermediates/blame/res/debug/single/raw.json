@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/raw/lpconfig.xsd",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/raw/lpconfig.xsd"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/raw/ringback.wav",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/raw/ringback.wav"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/raw/linphonerc_default",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/raw/linphonerc_default"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/raw/rootca.pem",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/raw/rootca.pem"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/raw/oldphone_mono.wav",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/raw/oldphone_mono.wav"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/raw/incoming_chat.wav",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/raw/incoming_chat.wav"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/raw/stop.mp3",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/raw/stop.mp3"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/raw/linphonerc_factory",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/raw/linphonerc_factory"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/raw/start.mp3",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/raw/start.mp3"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/raw/toy_mono.wav",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/raw/toy_mono.wav"
+    }
+]

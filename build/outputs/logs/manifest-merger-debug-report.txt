@@ -1,0 +1,443 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:2:1-305:12
+	package
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:3:5-27
+	android:versionCode
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:5:5-31
+		INJECTED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml
+		INJECTED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:4:5-35
+uses-sdk
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:20.0.0] /Users/lifeng/Documents/workspace/linphone/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:16:5-42
+	android:targetSdkVersion
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:8:9-35
+permission#org.linphone.permission.C2D_MESSAGE
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:12:5-14:47
+	android:protectionLevel
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:14:9-44
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:13:9-59
+uses-permission#org.linphone.permission.C2D_MESSAGE
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:15:22-72
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:16:5-82
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:16:22-79
+uses-permission#android.permission.INTERNET
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:17:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:18:5-71
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:18:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:19:22-69
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:20:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:22:22-65
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:23:22-78
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:24:5-69
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:24:22-66
+uses-feature#android.hardware.telephony
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:26:5-28:36
+	android:required
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:28:9-33
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:27:9-50
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:30:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:31:5-66
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:31:22-63
+uses-permission#android.permission.CAMERA
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:32:5-65
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:32:22-62
+uses-feature#android.hardware.camera
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:34:5-36:36
+	android:required
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:36:9-33
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:35:9-47
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:38:5-68
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:38:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:39:5-75
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:39:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:41:5-81
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:41:22-78
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:43:5-73
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:43:22-70
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:45:5-68
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:45:22-65
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:46:5-75
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:46:22-72
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:48:5-71
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:48:22-68
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:49:5-76
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:49:22-73
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:50:5-86
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:50:22-83
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:51:5-77
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:51:22-74
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:52:5-78
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:52:22-75
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:53:5-80
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:53:22-77
+supports-screens
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:55:5-60:40
+	android:largeScreens
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:57:9-36
+	android:smallScreens
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:59:9-36
+	android:normalScreens
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:58:9-37
+	android:xlargeScreens
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:60:9-37
+	android:anyDensity
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:56:9-34
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:62:5-88
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:62:30-85
+application
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:64:5-303:19
+MERGED from [com.android.support:support-v4:20.0.0] /Users/lifeng/Documents/workspace/linphone/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:17:5-19
+	android:label
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:67:9-41
+	android:allowBackup
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:65:9-35
+	android:icon
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:66:9-43
+	android:largeHeap
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:68:9-33
+activity#org.linphone.LinphoneLauncherActivity
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:69:9-105:20
+	android:label
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:72:13-45
+	android:exported
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:71:13-36
+	android:windowSoftInputMode
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:74:13-64
+	android:theme
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:73:13-43
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:70:13-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:75:13-79:29
+action#android.intent.action.MAIN
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:76:17-69
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:76:25-66
+data
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:77:17-47
+	android:scheme
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:77:23-44
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:78:17-77
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:78:27-74
+intent-filter#android.intent.action.CALL+android.intent.action.CALL_PRIVILEGED+android.intent.category.DEFAULT
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:80:13-89:29
+action#android.intent.action.CALL
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:81:17-69
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:81:25-66
+action#android.intent.action.CALL_PRIVILEGED
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:82:17-80
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:82:25-77
+category#android.intent.category.DEFAULT
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:84:27-73
+intent-filter#android.intent.action.SENDTO+android.intent.category.DEFAULT
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:90:13-97:29
+action#android.intent.action.SENDTO
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:91:17-71
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:91:25-68
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:98:13-104:29
+action#android.intent.action.VIEW
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:100:17-69
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:100:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:102:17-78
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:102:27-75
+activity#org.linphone.LinphoneActivity
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:106:9-114:20
+	android:screenOrientation
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:109:13-49
+	android:launchMode
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:108:13-44
+	android:theme
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:110:13-43
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:107:13-45
+intent-filter#android.intent.action.MAIN
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:111:13-113:29
+activity#org.linphone.ContactEditorActivity
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:115:9-123:20
+	android:screenOrientation
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:118:13-49
+	android:launchMode
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:117:13-43
+	android:theme
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:119:13-43
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:116:13-50
+activity#org.linphone.CallIncomingActivity
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:125:9-134:20
+	android:screenOrientation
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:129:13-49
+	android:launchMode
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:127:13-43
+	android:noHistory
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:128:13-37
+	android:theme
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:130:13-43
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:126:13-49
+activity#org.linphone.CallOutgoingActivity
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:135:9-144:20
+	android:screenOrientation
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:139:13-49
+	android:launchMode
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:137:13-43
+	android:noHistory
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:138:13-37
+	android:theme
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:140:13-43
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:136:13-49
+activity#org.linphone.CallActivity
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:145:9-162:20
+	android:screenOrientation
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:148:13-49
+	android:launchMode
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:147:13-44
+	android:theme
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:149:13-46
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:146:13-41
+activity#org.linphone.assistant.AssistantActivity
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:163:9-170:20
+	android:screenOrientation
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:165:13-47
+	android:theme
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:166:13-43
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:164:13-56
+activity#org.linphone.assistant.RemoteProvisioningLoginActivity
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:171:9-178:20
+	android:screenOrientation
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:173:13-49
+	android:theme
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:174:13-43
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:172:13-70
+activity#org.linphone.assistant.RemoteProvisioningActivity
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:179:9-193:20
+	android:screenOrientation
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:181:13-49
+	android:theme
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:182:13-43
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:180:13-65
+service#org.linphone.LinphoneService
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:195:9-198:44
+	android:label
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:197:13-49
+	android:stopWithTask
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:198:13-41
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:196:13-44
+service#org.linphone.sync.SyncService
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:199:9-212:19
+	android:exported
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:201:13-36
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:200:13-45
+intent-filter#android.content.SyncAdapter
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:202:13-204:29
+action#android.content.SyncAdapter
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:203:17-70
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:203:25-67
+meta-data#android.content.SyncAdapter
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:206:13-208:55
+	android:resource
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:208:17-52
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:207:17-59
+meta-data#android.provider.CONTACTS_STRUCTURE
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:209:13-211:52
+	android:resource
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:211:17-49
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:210:17-67
+service#org.linphone.sync.AuthenticationService
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:213:9-221:19
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:213:18-60
+intent-filter#android.accounts.AccountAuthenticator
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:214:13-216:29
+action#android.accounts.AccountAuthenticator
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:215:17-80
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:215:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:218:13-220:57
+	android:resource
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:220:17-54
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:219:17-69
+receiver#org.linphone.NetworkManager
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:222:9-226:20
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:222:19-49
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:223:13-225:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:224:17-79
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:224:25-76
+receiver#org.linphone.BluetoothManager
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:227:9-229:39
+	android:enabled
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:229:13-36
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:228:13-45
+receiver#org.linphone.BootReceiver
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:230:9-234:20
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:230:19-47
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:231:13-233:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:232:17-79
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:232:25-76
+receiver#org.linphone.PhoneStateChangedReceiver
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:235:9-239:20
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:235:19-60
+intent-filter#android.intent.action.PHONE_STATE
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:236:13-238:29
+action#android.intent.action.PHONE_STATE
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:237:17-76
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:237:25-73
+receiver#org.linphone.KeepAliveHandler
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:240:9-54
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:240:19-51
+receiver#org.linphone.gcm.GCMReceiver
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:242:9-251:20
+	android:permission
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:244:13-73
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:243:13-44
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+org.linphone
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:245:13-250:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:246:17-81
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:246:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:247:17-86
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:247:25-83
+category#org.linphone
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:249:17-57
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:249:27-54
+service#org.linphone.gcm.GCMService
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:265:9-51
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:265:18-48
+activity#org.linphone.tutorials.TutorialLauncherActivity
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:268:9-274:20
+	android:theme
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:270:13-43
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:269:13-63
+activity#org.linphone.tutorials.TutorialBuddyStatusActivity
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:275:9-281:20
+	android:theme
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:277:13-43
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:276:13-66
+activity#org.linphone.tutorials.TutorialChatRoomActivity
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:282:9-288:20
+	android:theme
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:284:13-43
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:283:13-63
+activity#org.linphone.tutorials.TutorialHelloWorldActivity
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:289:9-295:20
+	android:theme
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:291:13-43
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:290:13-65
+activity#org.linphone.tutorials.TutorialRegistrationActivity
+ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:296:9-302:20
+	android:theme
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:298:13-43
+	android:name
+		ADDED from /Users/lifeng/Documents/workspace/linphone/AndroidManifest.xml:297:13-67

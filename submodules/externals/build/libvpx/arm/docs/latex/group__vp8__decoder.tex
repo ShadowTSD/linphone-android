@@ -1,0 +1,130 @@
+\hypertarget{group__vp8__decoder}{}\subsection{WebM V\+P8/\+V\+P9 Decoder}
+\label{group__vp8__decoder}\index{Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}}
+\subsubsection*{Files}
+\begin{DoxyCompactItemize}
+\item 
+file \hyperlink{vp8dx_8h}{vp8dx.\+h}
+\begin{DoxyCompactList}\small\item\em Provides definitions for using V\+P8 or V\+P9 within the vpx Decoder interface. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structvpx__decrypt__init}{vpx\+\_\+decrypt\+\_\+init}
+\begin{DoxyCompactList}\small\item\em Structure to hold decryption state. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef void($\ast$ \hyperlink{group__vp8__decoder_ga10cdcbbc04aa831558688f4a4149fcbd}{vpx\+\_\+decrypt\+\_\+cb}) (void $\ast$decrypt\+\_\+state, const unsigned char $\ast$input, unsigned char $\ast$output, int count)
+\item 
+typedef struct \hyperlink{structvpx__decrypt__init}{vpx\+\_\+decrypt\+\_\+init} \hyperlink{group__vp8__decoder_gaa55171d8fa453260b1375dba87524b6a}{vpx\+\_\+decrypt\+\_\+init}
+\begin{DoxyCompactList}\small\item\em Structure to hold decryption state. \end{DoxyCompactList}\item 
+typedef \hyperlink{structvpx__decrypt__init}{vpx\+\_\+decrypt\+\_\+init} \hyperlink{group__vp8__decoder_gafda00b2721f7bfb804a1308d61f2a32f}{vp8\+\_\+decrypt\+\_\+init}\hypertarget{group__vp8__decoder_gafda00b2721f7bfb804a1308d61f2a32f}{}\label{group__vp8__decoder_gafda00b2721f7bfb804a1308d61f2a32f}
+
+\begin{DoxyCompactList}\small\item\em A deprecated alias for \hyperlink{structvpx__decrypt__init}{vpx\+\_\+decrypt\+\_\+init}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{group__vp8__decoder_gaf9dd3f2e6d1412106ee791af768e57c1}{vp8\+\_\+dec\+\_\+control\+\_\+id} \{ \\*
+\hyperlink{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a0b6055c47120f28e3de959960ee0a02b}{V\+P8\+D\+\_\+\+G\+E\+T\+\_\+\+L\+A\+S\+T\+\_\+\+R\+E\+F\+\_\+\+U\+P\+D\+A\+T\+ES} = V\+P8\+\_\+\+D\+E\+C\+O\+D\+E\+R\+\_\+\+C\+T\+R\+L\+\_\+\+I\+D\+\_\+\+S\+T\+A\+RT, 
+\hyperlink{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1af9f82d9e7930e6a2244b30b031b79599}{V\+P8\+D\+\_\+\+G\+E\+T\+\_\+\+F\+R\+A\+M\+E\+\_\+\+C\+O\+R\+R\+U\+P\+T\+ED}, 
+\hyperlink{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1aa57d870ac8cf395fdc86da4a8939b10b}{V\+P8\+D\+\_\+\+G\+E\+T\+\_\+\+L\+A\+S\+T\+\_\+\+R\+E\+F\+\_\+\+U\+S\+ED}, 
+\hyperlink{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a7fbdffa6018163d0ecf12b50276beba0}{V\+P\+X\+D\+\_\+\+S\+E\+T\+\_\+\+D\+E\+C\+R\+Y\+P\+T\+OR}, 
+\\*
+{\bfseries V\+P8\+D\+\_\+\+S\+E\+T\+\_\+\+D\+E\+C\+R\+Y\+P\+T\+OR} = V\+P\+X\+D\+\_\+\+S\+E\+T\+\_\+\+D\+E\+C\+R\+Y\+P\+T\+OR, 
+\hyperlink{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a7a8d537472fc7561bd86c7395994ba37}{V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+F\+R\+A\+M\+E\+\_\+\+S\+I\+ZE}, 
+\hyperlink{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1aec6eaaa866488cfe1d0cb83cab302ebd}{V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+I\+ZE}, 
+\hyperlink{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a0c0d6174e3dd0ae615913d940a2bbdeb}{V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+B\+I\+T\+\_\+\+D\+E\+P\+TH}, 
+\\*
+\hyperlink{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a5a045a5e858c7641aea8987fed5e24b4}{V\+P9\+\_\+\+S\+E\+T\+\_\+\+B\+Y\+T\+E\+\_\+\+A\+L\+I\+G\+N\+M\+E\+NT}, 
+\hyperlink{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a1c4fc468749a2ef88e148f09210ce73c}{V\+P9\+\_\+\+I\+N\+V\+E\+R\+T\+\_\+\+T\+I\+L\+E\+\_\+\+D\+E\+C\+O\+D\+E\+\_\+\+O\+R\+D\+ER}, 
+\hyperlink{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a999ed127a9ddb4be322a5a93eaed1233}{V\+P9\+\_\+\+S\+E\+T\+\_\+\+S\+K\+I\+P\+\_\+\+L\+O\+O\+P\+\_\+\+F\+I\+L\+T\+ER}, 
+{\bfseries V\+P8\+\_\+\+D\+E\+C\+O\+D\+E\+R\+\_\+\+C\+T\+R\+L\+\_\+\+I\+D\+\_\+\+M\+AX}
+ \}\begin{DoxyCompactList}\small\item\em V\+P8 decoder control functions. \end{DoxyCompactList}
+\end{DoxyCompactItemize}
+\subsubsection*{Algorithm interface for V\+P8}
+\label{_amgrp0b829b38ff2e659173b35cd78e0735bd}%
+This interface provides the capability to decode V\+P8 streams. \begin{DoxyCompactItemize}
+\item 
+\hyperlink{group__codec_gae99c3b04f4a567a311211cce3ae6b83b}{vpx\+\_\+codec\+\_\+iface\+\_\+t} {\bfseries vpx\+\_\+codec\+\_\+vp8\+\_\+dx\+\_\+algo}\hypertarget{group__vp8__decoder_ga1e151f9094620511e7aa49c04bf8b79e}{}\label{group__vp8__decoder_ga1e151f9094620511e7aa49c04bf8b79e}
+
+\item 
+\hyperlink{group__codec_gae99c3b04f4a567a311211cce3ae6b83b}{vpx\+\_\+codec\+\_\+iface\+\_\+t} $\ast$ {\bfseries vpx\+\_\+codec\+\_\+vp8\+\_\+dx} (void)\hypertarget{group__vp8__decoder_ga105d15fdb6baef8a2f02d6d5283847fb}{}\label{group__vp8__decoder_ga105d15fdb6baef8a2f02d6d5283847fb}
+
+\end{DoxyCompactItemize}
+\subsubsection*{Algorithm interface for V\+P9}
+\label{_amgrp9a787aae8f239d3b1cb9aeff16fb31ef}%
+This interface provides the capability to decode V\+P9 streams. \begin{DoxyCompactItemize}
+\item 
+\hyperlink{group__codec_gae99c3b04f4a567a311211cce3ae6b83b}{vpx\+\_\+codec\+\_\+iface\+\_\+t} {\bfseries vpx\+\_\+codec\+\_\+vp9\+\_\+dx\+\_\+algo}\hypertarget{group__vp8__decoder_gabb581a7e48d55dbda975c8bfbc2d615c}{}\label{group__vp8__decoder_gabb581a7e48d55dbda975c8bfbc2d615c}
+
+\item 
+\hyperlink{group__codec_gae99c3b04f4a567a311211cce3ae6b83b}{vpx\+\_\+codec\+\_\+iface\+\_\+t} $\ast$ {\bfseries vpx\+\_\+codec\+\_\+vp9\+\_\+dx} (void)\hypertarget{group__vp8__decoder_ga62b70b5b21a01ab2d57adb9f67f25d60}{}\label{group__vp8__decoder_ga62b70b5b21a01ab2d57adb9f67f25d60}
+
+\end{DoxyCompactItemize}
+\subsubsection*{Algorithm interface for V\+P10}
+\label{_amgrpd19ab123522066fb3d11d80719b68480}%
+This interface provides the capability to decode V\+P10 streams. \begin{DoxyCompactItemize}
+\item 
+\hyperlink{group__codec_gae99c3b04f4a567a311211cce3ae6b83b}{vpx\+\_\+codec\+\_\+iface\+\_\+t} {\bfseries vpx\+\_\+codec\+\_\+vp10\+\_\+dx\+\_\+algo}\hypertarget{group__vp8__decoder_ga62abeb12e08dfba0553f0004421224a2}{}\label{group__vp8__decoder_ga62abeb12e08dfba0553f0004421224a2}
+
+\item 
+\hyperlink{group__codec_gae99c3b04f4a567a311211cce3ae6b83b}{vpx\+\_\+codec\+\_\+iface\+\_\+t} $\ast$ {\bfseries vpx\+\_\+codec\+\_\+vp10\+\_\+dx} (void)\hypertarget{group__vp8__decoder_gac3a1c2f8765242a20a12c31b942abe42}{}\label{group__vp8__decoder_gac3a1c2f8765242a20a12c31b942abe42}
+
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Detailed Description}
+
+
+\subsubsection{Typedef Documentation}
+\index{Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}!vpx\+\_\+decrypt\+\_\+cb@{vpx\+\_\+decrypt\+\_\+cb}}
+\index{vpx\+\_\+decrypt\+\_\+cb@{vpx\+\_\+decrypt\+\_\+cb}!Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}}
+\paragraph[{\texorpdfstring{vpx\+\_\+decrypt\+\_\+cb}{vpx_decrypt_cb}}]{\setlength{\rightskip}{0pt plus 5cm}typedef void($\ast$ vpx\+\_\+decrypt\+\_\+cb) (void $\ast$decrypt\+\_\+state, const unsigned char $\ast$input, unsigned char $\ast$output, int count)}\hypertarget{group__vp8__decoder_ga10cdcbbc04aa831558688f4a4149fcbd}{}\label{group__vp8__decoder_ga10cdcbbc04aa831558688f4a4149fcbd}
+Decrypt n bytes of data from input -\/$>$ output, using the decrypt\+\_\+state passed in V\+P\+X\+D\+\_\+\+S\+E\+T\+\_\+\+D\+E\+C\+R\+Y\+P\+T\+OR. \index{Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}!vpx\+\_\+decrypt\+\_\+init@{vpx\+\_\+decrypt\+\_\+init}}
+\index{vpx\+\_\+decrypt\+\_\+init@{vpx\+\_\+decrypt\+\_\+init}!Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}}
+\paragraph[{\texorpdfstring{vpx\+\_\+decrypt\+\_\+init}{vpx_decrypt_init}}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf vpx\+\_\+decrypt\+\_\+init}  {\bf vpx\+\_\+decrypt\+\_\+init}}\hypertarget{group__vp8__decoder_gaa55171d8fa453260b1375dba87524b6a}{}\label{group__vp8__decoder_gaa55171d8fa453260b1375dba87524b6a}
+
+
+Structure to hold decryption state. 
+
+Defines a structure to hold the decryption state and access function. 
+
+\subsubsection{Enumeration Type Documentation}
+\index{Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}!vp8\+\_\+dec\+\_\+control\+\_\+id@{vp8\+\_\+dec\+\_\+control\+\_\+id}}
+\index{vp8\+\_\+dec\+\_\+control\+\_\+id@{vp8\+\_\+dec\+\_\+control\+\_\+id}!Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}}
+\paragraph[{\texorpdfstring{vp8\+\_\+dec\+\_\+control\+\_\+id}{vp8_dec_control_id}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf vp8\+\_\+dec\+\_\+control\+\_\+id}}\hypertarget{group__vp8__decoder_gaf9dd3f2e6d1412106ee791af768e57c1}{}\label{group__vp8__decoder_gaf9dd3f2e6d1412106ee791af768e57c1}
+
+
+V\+P8 decoder control functions. 
+
+This set of macros define the control functions available for the V\+P8 decoder interface.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{group__codec_gac1b91e04698c1bd4c0a2b8aa85b08cd2}{vpx\+\_\+codec\+\_\+control} 
+\end{DoxySeeAlso}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{V\+P8\+D\+\_\+\+G\+E\+T\+\_\+\+L\+A\+S\+T\+\_\+\+R\+E\+F\+\_\+\+U\+P\+D\+A\+T\+ES@{V\+P8\+D\+\_\+\+G\+E\+T\+\_\+\+L\+A\+S\+T\+\_\+\+R\+E\+F\+\_\+\+U\+P\+D\+A\+T\+ES}!Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}}\index{Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}!V\+P8\+D\+\_\+\+G\+E\+T\+\_\+\+L\+A\+S\+T\+\_\+\+R\+E\+F\+\_\+\+U\+P\+D\+A\+T\+ES@{V\+P8\+D\+\_\+\+G\+E\+T\+\_\+\+L\+A\+S\+T\+\_\+\+R\+E\+F\+\_\+\+U\+P\+D\+A\+T\+ES}}\item[{\em 
+V\+P8\+D\+\_\+\+G\+E\+T\+\_\+\+L\+A\+S\+T\+\_\+\+R\+E\+F\+\_\+\+U\+P\+D\+A\+T\+ES\hypertarget{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a0b6055c47120f28e3de959960ee0a02b}{}\label{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a0b6055c47120f28e3de959960ee0a02b}
+}]control function to get info on which reference frames were updated by the last decode \index{V\+P8\+D\+\_\+\+G\+E\+T\+\_\+\+F\+R\+A\+M\+E\+\_\+\+C\+O\+R\+R\+U\+P\+T\+ED@{V\+P8\+D\+\_\+\+G\+E\+T\+\_\+\+F\+R\+A\+M\+E\+\_\+\+C\+O\+R\+R\+U\+P\+T\+ED}!Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}}\index{Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}!V\+P8\+D\+\_\+\+G\+E\+T\+\_\+\+F\+R\+A\+M\+E\+\_\+\+C\+O\+R\+R\+U\+P\+T\+ED@{V\+P8\+D\+\_\+\+G\+E\+T\+\_\+\+F\+R\+A\+M\+E\+\_\+\+C\+O\+R\+R\+U\+P\+T\+ED}}\item[{\em 
+V\+P8\+D\+\_\+\+G\+E\+T\+\_\+\+F\+R\+A\+M\+E\+\_\+\+C\+O\+R\+R\+U\+P\+T\+ED\hypertarget{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1af9f82d9e7930e6a2244b30b031b79599}{}\label{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1af9f82d9e7930e6a2244b30b031b79599}
+}]check if the indicated frame is corrupted \index{V\+P8\+D\+\_\+\+G\+E\+T\+\_\+\+L\+A\+S\+T\+\_\+\+R\+E\+F\+\_\+\+U\+S\+ED@{V\+P8\+D\+\_\+\+G\+E\+T\+\_\+\+L\+A\+S\+T\+\_\+\+R\+E\+F\+\_\+\+U\+S\+ED}!Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}}\index{Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}!V\+P8\+D\+\_\+\+G\+E\+T\+\_\+\+L\+A\+S\+T\+\_\+\+R\+E\+F\+\_\+\+U\+S\+ED@{V\+P8\+D\+\_\+\+G\+E\+T\+\_\+\+L\+A\+S\+T\+\_\+\+R\+E\+F\+\_\+\+U\+S\+ED}}\item[{\em 
+V\+P8\+D\+\_\+\+G\+E\+T\+\_\+\+L\+A\+S\+T\+\_\+\+R\+E\+F\+\_\+\+U\+S\+ED\hypertarget{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1aa57d870ac8cf395fdc86da4a8939b10b}{}\label{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1aa57d870ac8cf395fdc86da4a8939b10b}
+}]control function to get info on which reference frames were used by the last decode \index{V\+P\+X\+D\+\_\+\+S\+E\+T\+\_\+\+D\+E\+C\+R\+Y\+P\+T\+OR@{V\+P\+X\+D\+\_\+\+S\+E\+T\+\_\+\+D\+E\+C\+R\+Y\+P\+T\+OR}!Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}}\index{Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}!V\+P\+X\+D\+\_\+\+S\+E\+T\+\_\+\+D\+E\+C\+R\+Y\+P\+T\+OR@{V\+P\+X\+D\+\_\+\+S\+E\+T\+\_\+\+D\+E\+C\+R\+Y\+P\+T\+OR}}\item[{\em 
+V\+P\+X\+D\+\_\+\+S\+E\+T\+\_\+\+D\+E\+C\+R\+Y\+P\+T\+OR\hypertarget{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a7fbdffa6018163d0ecf12b50276beba0}{}\label{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a7fbdffa6018163d0ecf12b50276beba0}
+}]decryption function to decrypt encoded buffer data immediately before decoding. Takes a \hyperlink{structvpx__decrypt__init}{vpx\+\_\+decrypt\+\_\+init}, which contains a callback function and opaque context pointer. \index{V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+F\+R\+A\+M\+E\+\_\+\+S\+I\+ZE@{V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+F\+R\+A\+M\+E\+\_\+\+S\+I\+ZE}!Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}}\index{Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}!V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+F\+R\+A\+M\+E\+\_\+\+S\+I\+ZE@{V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+F\+R\+A\+M\+E\+\_\+\+S\+I\+ZE}}\item[{\em 
+V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+F\+R\+A\+M\+E\+\_\+\+S\+I\+ZE\hypertarget{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a7a8d537472fc7561bd86c7395994ba37}{}\label{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a7a8d537472fc7561bd86c7395994ba37}
+}]control function to get the dimensions that the current frame is decoded at. This may be different to the intended display size for the frame as specified in the wrapper or frame header (see V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+I\+ZE). \index{V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+I\+ZE@{V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+I\+ZE}!Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}}\index{Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}!V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+I\+ZE@{V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+I\+ZE}}\item[{\em 
+V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+I\+ZE\hypertarget{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1aec6eaaa866488cfe1d0cb83cab302ebd}{}\label{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1aec6eaaa866488cfe1d0cb83cab302ebd}
+}]control function to get the current frame\textquotesingle{}s intended display dimensions (as specified in the wrapper or frame header). This may be different to the decoded dimensions of this frame (see V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+F\+R\+A\+M\+E\+\_\+\+S\+I\+ZE). \index{V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+B\+I\+T\+\_\+\+D\+E\+P\+TH@{V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+B\+I\+T\+\_\+\+D\+E\+P\+TH}!Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}}\index{Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}!V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+B\+I\+T\+\_\+\+D\+E\+P\+TH@{V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+B\+I\+T\+\_\+\+D\+E\+P\+TH}}\item[{\em 
+V\+P9\+D\+\_\+\+G\+E\+T\+\_\+\+B\+I\+T\+\_\+\+D\+E\+P\+TH\hypertarget{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a0c0d6174e3dd0ae615913d940a2bbdeb}{}\label{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a0c0d6174e3dd0ae615913d940a2bbdeb}
+}]control function to get the bit depth of the stream. \index{V\+P9\+\_\+\+S\+E\+T\+\_\+\+B\+Y\+T\+E\+\_\+\+A\+L\+I\+G\+N\+M\+E\+NT@{V\+P9\+\_\+\+S\+E\+T\+\_\+\+B\+Y\+T\+E\+\_\+\+A\+L\+I\+G\+N\+M\+E\+NT}!Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}}\index{Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}!V\+P9\+\_\+\+S\+E\+T\+\_\+\+B\+Y\+T\+E\+\_\+\+A\+L\+I\+G\+N\+M\+E\+NT@{V\+P9\+\_\+\+S\+E\+T\+\_\+\+B\+Y\+T\+E\+\_\+\+A\+L\+I\+G\+N\+M\+E\+NT}}\item[{\em 
+V\+P9\+\_\+\+S\+E\+T\+\_\+\+B\+Y\+T\+E\+\_\+\+A\+L\+I\+G\+N\+M\+E\+NT\hypertarget{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a5a045a5e858c7641aea8987fed5e24b4}{}\label{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a5a045a5e858c7641aea8987fed5e24b4}
+}]control function to set the byte alignment of the planes in the reference buffers. Valid values are power of 2, from 32 to 1024. A value of 0 sets legacy alignment. I.\+e. Y plane is aligned to 32 bytes, U plane directly follows Y plane, and V plane directly follows U plane. Default value is 0. \index{V\+P9\+\_\+\+I\+N\+V\+E\+R\+T\+\_\+\+T\+I\+L\+E\+\_\+\+D\+E\+C\+O\+D\+E\+\_\+\+O\+R\+D\+ER@{V\+P9\+\_\+\+I\+N\+V\+E\+R\+T\+\_\+\+T\+I\+L\+E\+\_\+\+D\+E\+C\+O\+D\+E\+\_\+\+O\+R\+D\+ER}!Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}}\index{Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}!V\+P9\+\_\+\+I\+N\+V\+E\+R\+T\+\_\+\+T\+I\+L\+E\+\_\+\+D\+E\+C\+O\+D\+E\+\_\+\+O\+R\+D\+ER@{V\+P9\+\_\+\+I\+N\+V\+E\+R\+T\+\_\+\+T\+I\+L\+E\+\_\+\+D\+E\+C\+O\+D\+E\+\_\+\+O\+R\+D\+ER}}\item[{\em 
+V\+P9\+\_\+\+I\+N\+V\+E\+R\+T\+\_\+\+T\+I\+L\+E\+\_\+\+D\+E\+C\+O\+D\+E\+\_\+\+O\+R\+D\+ER\hypertarget{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a1c4fc468749a2ef88e148f09210ce73c}{}\label{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a1c4fc468749a2ef88e148f09210ce73c}
+}]control function to invert the decoding order to from right to left. The function is used in a test to confirm the decoding independence of tile columns. The function may be used in application where this order of decoding is desired.
+
+T\+O\+D\+O(yaowu)\+: Rework the unit test that uses this control, and in a future release, this test-\/only control shall be removed. \index{V\+P9\+\_\+\+S\+E\+T\+\_\+\+S\+K\+I\+P\+\_\+\+L\+O\+O\+P\+\_\+\+F\+I\+L\+T\+ER@{V\+P9\+\_\+\+S\+E\+T\+\_\+\+S\+K\+I\+P\+\_\+\+L\+O\+O\+P\+\_\+\+F\+I\+L\+T\+ER}!Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}}\index{Web\+M V\+P8/\+V\+P9 Decoder@{Web\+M V\+P8/\+V\+P9 Decoder}!V\+P9\+\_\+\+S\+E\+T\+\_\+\+S\+K\+I\+P\+\_\+\+L\+O\+O\+P\+\_\+\+F\+I\+L\+T\+ER@{V\+P9\+\_\+\+S\+E\+T\+\_\+\+S\+K\+I\+P\+\_\+\+L\+O\+O\+P\+\_\+\+F\+I\+L\+T\+ER}}\item[{\em 
+V\+P9\+\_\+\+S\+E\+T\+\_\+\+S\+K\+I\+P\+\_\+\+L\+O\+O\+P\+\_\+\+F\+I\+L\+T\+ER\hypertarget{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a999ed127a9ddb4be322a5a93eaed1233}{}\label{group__vp8__decoder_ggaf9dd3f2e6d1412106ee791af768e57c1a999ed127a9ddb4be322a5a93eaed1233}
+}]control function to set the skip loop filter flag. Valid values are integers. The decoder will skip the loop filter when its value is set to nonzero. If the loop filter is skipped the decoder may accumulate decode artifacts. The default value is 0. \end{description}
+\end{Desc}

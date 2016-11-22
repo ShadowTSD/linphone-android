@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/xml/authenticator.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/xml/authenticator.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/xml/contacts.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/xml/contacts.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/xml/account_preferences.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/xml/account_preferences.xml"
+    },
+    {
+        "merged": "/Users/lifeng/Documents/workspace/linphone/build/intermediates/res/merged/debug/xml/syncadapter.xml",
+        "source": "/Users/lifeng/Documents/workspace/linphone/res/xml/syncadapter.xml"
+    }
+]
